@@ -12,6 +12,7 @@ conf/**/*credentials*
 data/**
 session_store.db
 stats.json
+.telemetry
 # except their sub-folders
 !data/**/
 
