@@ -51,7 +51,7 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> RandomForestRegres
     Returns:
         Trained model.
     """
-    regressor = RandomForestRegressor(criterion='absolute_error',n_estimators=50,n_jobs=-1)
+    regressor = RandomForestRegressor(criterion='squared_error',n_estimators=50,n_jobs=-1)
     regressor.fit(X_train, y_train)
     return regressor
 
