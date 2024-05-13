@@ -10,7 +10,8 @@ conf/**/*credentials*
 
 # ignore everything in the following folders
 data/**
-
+session_store.db
+stats.json
 # except their sub-folders
 !data/**/
 
